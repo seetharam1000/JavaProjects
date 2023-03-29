@@ -2,39 +2,27 @@ package c1_arraylist;
 
 public class Employee {
 
-	int id;
-	String name;
-	double salary;
-	
-	public Employee(int id, String name, double salary) {
-		
-		this.id = id;
-		this.name = name;
-		this.salary = salary;
-		
-	}
+    int id;
+    String name;
+    double salary;
 
-	public int getId() {
-		return id;
-	}
+    public Employee(int id, String name, double salary) {
 
-	public void setId(int id) {
-		this.id = id;
-	}
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
 
-	public String getName() {
-		return name;
-	}
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public int getId() {
+        return id;
+    }
 
-	public double getSalary() {
-		return salary;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setSalary(double salary) {
-		this.salary = salary;
-	}
+    public double getSalary() {
+        return salary;
+    }
 }

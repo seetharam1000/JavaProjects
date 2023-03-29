@@ -1,17 +1,17 @@
-package c6_join_yield;
+package c6_threads;
 
 import c4_multithread.FirstThread;
 import c4_multithread.SecondThread;
 
-public class YieldThred {
+public class JoinThred {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
 		FirstThread t = new FirstThread();
 		SecondThread t1 = new SecondThread();
 		t.start();
-		Thread.yield();
+		t.join();
 		t1.start();
 		
 		

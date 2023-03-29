@@ -1,4 +1,4 @@
-package c6_join_yield;
+package c6_threads;
 
 public class FirstThread extends Thread {
 

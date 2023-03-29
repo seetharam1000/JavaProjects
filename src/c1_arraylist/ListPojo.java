@@ -2,7 +2,7 @@ package c1_arraylist;
 
 import java.util.*;
 
-public class ListPojo {
+public class ListPojo {	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
