@@ -1,14 +1,14 @@
-package a9_String_immutable_mutable;
+package a9_string_immutable_mutable;
 
-public class StrBuilder {
+public class StrBuffer {
     public static void main(String[] args) {
-        StringBuilder sb = new StringBuilder("this")
+        StringBuffer sb = new StringBuffer("this")
                 .append(" ")
                 .append("java")
                 .append(" ")
                 .append("world")
                 .append(" ")
-                .append("StringBuilder");
+                .append("StringBuffer");
 
         System.out.println(sb);
     }

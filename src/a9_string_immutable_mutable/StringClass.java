@@ -1,4 +1,4 @@
-package a9_String_immutable_mutable;
+package a9_string_immutable_mutable;
 
 public class StringClass {
     public static void main(String[] args) {
